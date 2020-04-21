@@ -5,7 +5,7 @@ An implementation of the GeoPandas library to visualize COVID19 cases in each st
 
 
 ### Install the requirements using the command:
-`pip intsall -r requirements.txt`
+`pip3 intsall -r requirements.txt`
 
 Open CountryMap_India.ipynb and just run each cell !!!
 
