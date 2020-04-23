@@ -4,8 +4,7 @@ This repository is a case study, analysis, and visualization of COVID-19 Pandemi
 
 ## Dataset
 
-Get data from
-[Ministery of Health and Family Welfare, India](https://www.mohfw.gov.in) by web scrapping. (Update daily)
+[Ministery of Health and Family Welfare, India](https://www.mohfw.gov.in) (Update daily)
 
 ## Installation
 
