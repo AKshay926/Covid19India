@@ -22,10 +22,19 @@ or click `Download ZIP` in right panel of repository and extract it.
 ### Output:
 
 #### State Wise choropleth Map describing Total Cases of COVID-19
-![alt_text](https://github.com/durgeshsamariya/Covid19India/blob/master/TotalCase_India.png)
+![TotalCase_HeatMap](https://github.com/durgeshsamariya/Covid19India/blob/master/TotalCase_India.png)
 
 #### State Wise choropleth Map describing Total Deaths due to COVID-19
-![alt_text](https://github.com/durgeshsamariya/Covid19India/blob/master/TotalDeath_India.png)
+![TotalDeaths_HeatMap](https://github.com/durgeshsamariya/Covid19India/blob/master/TotalDeath_India.png)
+
+#### Calender Map describing Daily New Cases of COVID-19
+![](https://github.com/durgeshsamariya/Covid19India/blob/master/Daily_Confirmed_Case_CalenderView.png)
+
+#### Calender Map describing Daily Deaths due to  COVID-19
+![](https://github.com/durgeshsamariya/Covid19India/blob/master/Daily_Deaths_CalenderView.png)
+
+#### State wise Line Chart of Daily Total cases of COVID-19
+![](https://github.com/durgeshsamariya/Covid19India/blob/master/Daily_Case_Line_Chart.png) 
 
 # Contribution
 If you want to contribute to the notebook or any feedback and suggestions are most welcome.
