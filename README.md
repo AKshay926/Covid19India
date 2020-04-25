@@ -2,7 +2,8 @@
 
 An implementation of the GeoPandas library to visualize COVID19 cases in each state of India.
 
-
+# Motivation
+The motivation is to derive actionable insights from the covid 19 patient data in India using data visualization and exploratory data analysis in Python.
 
 ### Install the requirements using the command:
 `pip3 intsall -r requirements.txt`
