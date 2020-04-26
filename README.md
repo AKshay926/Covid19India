@@ -2,6 +2,9 @@
 
 This repository is a case study, analysis, and visualization of COVID-19 Pandemic spread in India.
 
+## Motivation
+The motivation is to derive actionable insights from the covid 19 patient data in India using data visualization and exploratory data analysis in Python.
+
 ## Dataset
 
 [Ministery of Health and Family Welfare, India](https://www.mohfw.gov.in) (Update daily)
