@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4f7efef9c54b44a989570ff615d0d873 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_4f7efef9c54b44a989570ff615d0d873" ></div>
+        
+</body>
+<script>    
+    
+            var map_4f7efef9c54b44a989570ff615d0d873 = L.map(
+                "map_4f7efef9c54b44a989570ff615d0d873",
+                {
+                    center: [20.0, 78.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_14386d5671ff4180b4f6732314ae8c8a = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 7, "maxZoom": 7, "minZoom": 4, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_4f7efef9c54b44a989570ff615d0d873);
+        
+    
+            var circle_92cab1317b434d2194b99e7b161b01e4 = L.circle(
+                [11.7401, 92.6586],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_4f7efef9c54b44a989570ff615d0d873);
+        
+    
+            circle_92cab1317b434d2194b99e7b161b01e4.bindTooltip(
+                `<div>
+                     <h3 style='text-align:center;font-weight: bold'>Andaman and Nicobar Islands</h3><hr style='margin:10px;'><ul style='color: #444; list-style-type:circle; align-item:left; padding-left:20px; padding-right:20px'><li>Confirmed: 18.0</li><li>Deaths:   0.0</li><li>Active:   7.0</li></ul>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b6613582775f49bca1e9fedf66067413 = L.circle(
+                [15.9129, 79.74],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 160000.0, "stroke": true, "weight": 3}
+            ).addTo(map_4f7efef9c54b44a989570ff615d0d873);
+        
+    
+            circle_b6613582775f49bca1e9fedf66067413.bindTooltip(
+                `<div>
+                     <h3 style='text-align:center;font-weight: bold'>Andhra Pradesh</h3><hr style='margin:10px;'><ul style='color: #444; list-style-type:circle; align-item:left; padding-left:20px; padding-right:20px'><li>Confirmed: 813.0</li><li>Deaths:   24.0</li><li>Active:   669.0</li></ul>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_2a6092c8913c4030a9e5bfadde93d0d7 = L.circle(
+                [28.218000000000004, 94.7278],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_4f7efef9c54b44a989570ff615d0d873);
+        
+    
+            circle_2a6092c8913c4030a9e5bfadde93d0d7.bindTooltip(
+                `<div>
+                     <h3 style='text-align:center;font-weight: bold'>Arunachal Pradesh</h3><hr style='margin:10px;'><ul style='color: #444; list-style-type:circle; align-item:left; padding-left:20px; padding-right:20px'><li>Confirmed: 1.0</li><li>Deaths:   0.0</li><li>Active:   0.0</li></ul>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_fe4fa7ac144245e48c24df78938ef95e = L.circle(
+                [26.2006, 92.9376],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_4f7efef9c54b44a989570ff615d0d873);
+        
+    
+            circle_fe4fa7ac144245e48c24df78938ef95e.bindTooltip(
+                `<div>
+                     <h3 style='text-align:center;font-weight: bold'>Assam</h3><hr style='margin:10px;'><ul style='color: #444; list-style-type:circle; align-item:left; padding-left:20px; padding-right:20px'><li>Confirmed: 35.0</li><li>Deaths:   1.0</li><li>Active:   15.0</li></ul>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f8cb304c77e448a3b4143bc0bb21ad44 = L.circle(
+                [25.0961, 85.3131],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 60000.0, "stroke": true, "weight": 3}
+            ).addTo(map_4f7efef9c54b44a989570ff615d0d873);
+        
+    
+            circle_f8cb304c77e448a3b4143bc0bb21ad44.bindTooltip(
+                `<div>
+                     <h3 style='text-align:center;font-weight: bold'>Bihar</h3><hr style='margin:10px;'><ul style='color: #444; list-style-type:circle; align-item:left; padding-left:20px; padding-right:20px'><li>Confirmed: 143.0</li><li>Deaths:   2.0</li><li>Active:   95.0</li></ul>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_9c5b1980b11048028e848895700ba52f = L.circle(
+                [30.7333, 76.7794],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_4f7efef9c54b44a989570ff615d0d873);
+        
+    
+            circle_9c5b1980b11048028e848895700ba52f.bindTooltip(
+                `<div>
+                     <h3 style='text-align:center;font-weight: bold'>Chandigarh</h3><hr style='margin:10px;'><ul style='color: #444; list-style-type:circle; align-item:left; padding-left:20px; padding-right:20px'><li>Confirmed: 27.0</li><li>Deaths:   0.0</li><li>Active:   13.0</li></ul>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_9f14560062f34f289297feb57737143c = L.circle(
+                [21.2787, 81.8661],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_4f7efef9c54b44a989570ff615d0d873);
+        
+    
+            circle_9f14560062f34f289297feb57737143c.bindTooltip(
+                `<div>
+                     <h3 style='text-align:center;font-weight: bold'>Chhattisgarh</h3><hr style='margin:10px;'><ul style='color: #444; list-style-type:circle; align-item:left; padding-left:20px; padding-right:20px'><li>Confirmed: 36.0</li><li>Deaths:   0.0</li><li>Active:   10.0</li></ul>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_144f8bd2719d474eb52125c30b4e4b90 = L.circle(
+                [28.7041, 77.1025],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 160000.0, "stroke": true, "weight": 3}
+            ).addTo(map_4f7efef9c54b44a989570ff615d0d873);
+        
+    
+            circle_144f8bd2719d474eb52125c30b4e4b90.bindTooltip(
+                `<div>
+                     <h3 style='text-align:center;font-weight: bold'>Delhi</h3><hr style='margin:10px;'><ul style='color: #444; list-style-type:circle; align-item:left; padding-left:20px; padding-right:20px'><li>Confirmed: 2248.0</li><li>Deaths:   48.0</li><li>Active:   1476.0</li></ul>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f1aba331bb014925b9bc2f8dcae0f94a = L.circle(
+                [15.2993, 74.124],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_4f7efef9c54b44a989570ff615d0d873);
+        
+    
+            circle_f1aba331bb014925b9bc2f8dcae0f94a.bindTooltip(
+                `<div>
+                     <h3 style='text-align:center;font-weight: bold'>Goa</h3><hr style='margin:10px;'><ul style='color: #444; list-style-type:circle; align-item:left; padding-left:20px; padding-right:20px'><li>Confirmed: 7.0</li><li>Deaths:   0.0</li><li>Active:   0.0</li></ul>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_52a2cec418b54523905d5fbd13c3062c = L.circle(
+                [22.2587, 71.1924],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 210000.0, "stroke": true, "weight": 3}
+            ).addTo(map_4f7efef9c54b44a989570ff615d0d873);
+        
+    
+            circle_52a2cec418b54523905d5fbd13c3062c.bindTooltip(
+                `<div>
+                     <h3 style='text-align:center;font-weight: bold'>Gujarat</h3><hr style='margin:10px;'><ul style='color: #444; list-style-type:circle; align-item:left; padding-left:20px; padding-right:20px'><li>Confirmed: 2407.0</li><li>Deaths:   103.0</li><li>Active:   2125.0</li></ul>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e069939704da481ab5e98c04f7cab982 = L.circle(
+                [29.0588, 76.0856],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 60000.0, "stroke": true, "weight": 3}
+            ).addTo(map_4f7efef9c54b44a989570ff615d0d873);
+        
+    
+            circle_e069939704da481ab5e98c04f7cab982.bindTooltip(
+                `<div>
+                     <h3 style='text-align:center;font-weight: bold'>Haryana</h3><hr style='margin:10px;'><ul style='color: #444; list-style-type:circle; align-item:left; padding-left:20px; padding-right:20px'><li>Confirmed: 262.0</li><li>Deaths:   3.0</li><li>Active:   119.0</li></ul>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_8a06f5e676ef4e46ba5393eaed44a065 = L.circle(
+                [31.1048, 77.1734],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_4f7efef9c54b44a989570ff615d0d873);
+        
+    
+            circle_8a06f5e676ef4e46ba5393eaed44a065.bindTooltip(
+                `<div>
+                     <h3 style='text-align:center;font-weight: bold'>Himachal Pradesh</h3><hr style='margin:10px;'><ul style='color: #444; list-style-type:circle; align-item:left; padding-left:20px; padding-right:20px'><li>Confirmed: 40.0</li><li>Deaths:   1.0</li><li>Active:   21.0</li></ul>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a94c52f2005f48de9587acad385f91ef = L.circle(
+                [33.7782, 76.5762],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 60000.0, "stroke": true, "weight": 3}
+            ).addTo(map_4f7efef9c54b44a989570ff615d0d873);
+        
+    
+            circle_a94c52f2005f48de9587acad385f91ef.bindTooltip(
+                `<div>
+                     <h3 style='text-align:center;font-weight: bold'>Jammu and Kashmir</h3><hr style='margin:10px;'><ul style='color: #444; list-style-type:circle; align-item:left; padding-left:20px; padding-right:20px'><li>Confirmed: 407.0</li><li>Deaths:   5.0</li><li>Active:   310.0</li></ul>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1d5891ff829749e19f8eb8ac85c1f847 = L.circle(
+                [23.6102, 85.2799],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 60000.0, "stroke": true, "weight": 3}
+            ).addTo(map_4f7efef9c54b44a989570ff615d0d873);
+        
+    
+            circle_1d5891ff829749e19f8eb8ac85c1f847.bindTooltip(
+                `<div>
+                     <h3 style='text-align:center;font-weight: bold'>Jharkhand</h3><hr style='margin:10px;'><ul style='color: #444; list-style-type:circle; align-item:left; padding-left:20px; padding-right:20px'><li>Confirmed: 49.0</li><li>Deaths:   3.0</li><li>Active:   38.0</li></ul>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_2f8a26de03c845e3bceae2ac82521941 = L.circle(
+                [15.3173, 75.7139],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 110000.00000000001, "stroke": true, "weight": 3}
+            ).addTo(map_4f7efef9c54b44a989570ff615d0d873);
+        
+    
+            circle_2f8a26de03c845e3bceae2ac82521941.bindTooltip(
+                `<div>
+                     <h3 style='text-align:center;font-weight: bold'>Karnataka</h3><hr style='margin:10px;'><ul style='color: #444; list-style-type:circle; align-item:left; padding-left:20px; padding-right:20px'><li>Confirmed: 427.0</li><li>Deaths:   17.0</li><li>Active:   279.0</li></ul>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f739454b4fe641ac8fdb3a7f0f6fab11 = L.circle(
+                [10.8505, 76.2711],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 60000.0, "stroke": true, "weight": 3}
+            ).addTo(map_4f7efef9c54b44a989570ff615d0d873);
+        
+    
+            circle_f739454b4fe641ac8fdb3a7f0f6fab11.bindTooltip(
+                `<div>
+                     <h3 style='text-align:center;font-weight: bold'>Kerala</h3><hr style='margin:10px;'><ul style='color: #444; list-style-type:circle; align-item:left; padding-left:20px; padding-right:20px'><li>Confirmed: 438.0</li><li>Deaths:   3.0</li><li>Active:   112.0</li></ul>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b8004b3fb34c4bddbd24570266db22aa = L.circle(
+                [34.2996, 78.2932],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_4f7efef9c54b44a989570ff615d0d873);
+        
+    
+            circle_b8004b3fb34c4bddbd24570266db22aa.bindTooltip(
+                `<div>
+                     <h3 style='text-align:center;font-weight: bold'>Ladakh</h3><hr style='margin:10px;'><ul style='color: #444; list-style-type:circle; align-item:left; padding-left:20px; padding-right:20px'><li>Confirmed: 18.0</li><li>Deaths:   0.0</li><li>Active:   4.0</li></ul>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d1cdafc1966c4c73b37d9cea3ca07a02 = L.circle(
+                [22.9734, 78.6569],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 210000.0, "stroke": true, "weight": 3}
+            ).addTo(map_4f7efef9c54b44a989570ff615d0d873);
+        
+    
+            circle_d1cdafc1966c4c73b37d9cea3ca07a02.bindTooltip(
+                `<div>
+                     <h3 style='text-align:center;font-weight: bold'>Madhya Pradesh</h3><hr style='margin:10px;'><ul style='color: #444; list-style-type:circle; align-item:left; padding-left:20px; padding-right:20px'><li>Confirmed: 1592.0</li><li>Deaths:   80.0</li><li>Active:   1364.0</li></ul>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_4f2fcc8c161b4b5a88f5c60e182e7b9e = L.circle(
+                [19.7515, 75.7139],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 260000.0, "stroke": true, "weight": 3}
+            ).addTo(map_4f7efef9c54b44a989570ff615d0d873);
+        
+    
+            circle_4f2fcc8c161b4b5a88f5c60e182e7b9e.bindTooltip(
+                `<div>
+                     <h3 style='text-align:center;font-weight: bold'>Maharashtra</h3><hr style='margin:10px;'><ul style='color: #444; list-style-type:circle; align-item:left; padding-left:20px; padding-right:20px'><li>Confirmed: 5652.0</li><li>Deaths:   269.0</li><li>Active:   4594.0</li></ul>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_fc30455831164ebda9187f2addb4cdd1 = L.circle(
+                [24.6637, 93.9063],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_4f7efef9c54b44a989570ff615d0d873);
+        
+    
+            circle_fc30455831164ebda9187f2addb4cdd1.bindTooltip(
+                `<div>
+                     <h3 style='text-align:center;font-weight: bold'>Manipur</h3><hr style='margin:10px;'><ul style='color: #444; list-style-type:circle; align-item:left; padding-left:20px; padding-right:20px'><li>Confirmed: 2.0</li><li>Deaths:   0.0</li><li>Active:   0.0</li></ul>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_bf4b28bd64044d6c837da3e64c4d37a6 = L.circle(
+                [25.467, 91.3662],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_4f7efef9c54b44a989570ff615d0d873);
+        
+    
+            circle_bf4b28bd64044d6c837da3e64c4d37a6.bindTooltip(
+                `<div>
+                     <h3 style='text-align:center;font-weight: bold'>Meghalaya</h3><hr style='margin:10px;'><ul style='color: #444; list-style-type:circle; align-item:left; padding-left:20px; padding-right:20px'><li>Confirmed: 12.0</li><li>Deaths:   1.0</li><li>Active:   11.0</li></ul>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1d2d24cd4b6d454485eef303eb74dd90 = L.circle(
+                [23.1645, 92.9376],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_4f7efef9c54b44a989570ff615d0d873);
+        
+    
+            circle_1d2d24cd4b6d454485eef303eb74dd90.bindTooltip(
+                `<div>
+                     <h3 style='text-align:center;font-weight: bold'>Mizoram</h3><hr style='margin:10px;'><ul style='color: #444; list-style-type:circle; align-item:left; padding-left:20px; padding-right:20px'><li>Confirmed: 1.0</li><li>Deaths:   0.0</li><li>Active:   1.0</li></ul>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_04ec1fb0eac44e349e88d344884528ea = L.circle(
+                [20.9517, 85.0985],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_4f7efef9c54b44a989570ff615d0d873);
+        
+    
+            circle_04ec1fb0eac44e349e88d344884528ea.bindTooltip(
+                `<div>
+                     <h3 style='text-align:center;font-weight: bold'>Odisha</h3><hr style='margin:10px;'><ul style='color: #444; list-style-type:circle; align-item:left; padding-left:20px; padding-right:20px'><li>Confirmed: 83.0</li><li>Deaths:   1.0</li><li>Active:   50.0</li></ul>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_fcec75a29b464adea057968c83f729da = L.circle(
+                [11.9416, 79.8083],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_4f7efef9c54b44a989570ff615d0d873);
+        
+    
+            circle_fcec75a29b464adea057968c83f729da.bindTooltip(
+                `<div>
+                     <h3 style='text-align:center;font-weight: bold'>Puducherry</h3><hr style='margin:10px;'><ul style='color: #444; list-style-type:circle; align-item:left; padding-left:20px; padding-right:20px'><li>Confirmed: 7.0</li><li>Deaths:   0.0</li><li>Active:   4.0</li></ul>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_924c26629a44411baa8ead833244005c = L.circle(
+                [31.1471, 75.3412],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 110000.00000000001, "stroke": true, "weight": 3}
+            ).addTo(map_4f7efef9c54b44a989570ff615d0d873);
+        
+    
+            circle_924c26629a44411baa8ead833244005c.bindTooltip(
+                `<div>
+                     <h3 style='text-align:center;font-weight: bold'>Punjab</h3><hr style='margin:10px;'><ul style='color: #444; list-style-type:circle; align-item:left; padding-left:20px; padding-right:20px'><li>Confirmed: 251.0</li><li>Deaths:   16.0</li><li>Active:   186.0</li></ul>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_abb7b1da0cff400f95505df7489696bd = L.circle(
+                [27.0238, 74.2179],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 160000.0, "stroke": true, "weight": 3}
+            ).addTo(map_4f7efef9c54b44a989570ff615d0d873);
+        
+    
+            circle_abb7b1da0cff400f95505df7489696bd.bindTooltip(
+                `<div>
+                     <h3 style='text-align:center;font-weight: bold'>Rajasthan</h3><hr style='margin:10px;'><ul style='color: #444; list-style-type:circle; align-item:left; padding-left:20px; padding-right:20px'><li>Confirmed: 1890.0</li><li>Deaths:   27.0</li><li>Active:   1633.0</li></ul>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_362b1ddcb7d84529ba3fe87a937b9b31 = L.circle(
+                [11.1271, 78.6569],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 110000.00000000001, "stroke": true, "weight": 3}
+            ).addTo(map_4f7efef9c54b44a989570ff615d0d873);
+        
+    
+            circle_362b1ddcb7d84529ba3fe87a937b9b31.bindTooltip(
+                `<div>
+                     <h3 style='text-align:center;font-weight: bold'>Tamil Nadu</h3><hr style='margin:10px;'><ul style='color: #444; list-style-type:circle; align-item:left; padding-left:20px; padding-right:20px'><li>Confirmed: 1629.0</li><li>Deaths:   18.0</li><li>Active:   949.0</li></ul>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_392b7832e3874c1ab704f04399d836fe = L.circle(
+                [18.1124, 79.0193],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 160000.0, "stroke": true, "weight": 3}
+            ).addTo(map_4f7efef9c54b44a989570ff615d0d873);
+        
+    
+            circle_392b7832e3874c1ab704f04399d836fe.bindTooltip(
+                `<div>
+                     <h3 style='text-align:center;font-weight: bold'>Telengana</h3><hr style='margin:10px;'><ul style='color: #444; list-style-type:circle; align-item:left; padding-left:20px; padding-right:20px'><li>Confirmed: 945.0</li><li>Deaths:   23.0</li><li>Active:   728.0</li></ul>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_c0a8becf9104441b8e70347f26fdfcf2 = L.circle(
+                [23.9408, 91.9882],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_4f7efef9c54b44a989570ff615d0d873);
+        
+    
+            circle_c0a8becf9104441b8e70347f26fdfcf2.bindTooltip(
+                `<div>
+                     <h3 style='text-align:center;font-weight: bold'>Tripura</h3><hr style='margin:10px;'><ul style='color: #444; list-style-type:circle; align-item:left; padding-left:20px; padding-right:20px'><li>Confirmed: 2.0</li><li>Deaths:   0.0</li><li>Active:   1.0</li></ul>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_6d8ad2e70b8f43f4a4350c28a37c071c = L.circle(
+                [26.8467, 80.9462],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 160000.0, "stroke": true, "weight": 3}
+            ).addTo(map_4f7efef9c54b44a989570ff615d0d873);
+        
+    
+            circle_6d8ad2e70b8f43f4a4350c28a37c071c.bindTooltip(
+                `<div>
+                     <h3 style='text-align:center;font-weight: bold'>Uttar Pradesh</h3><hr style='margin:10px;'><ul style='color: #444; list-style-type:circle; align-item:left; padding-left:20px; padding-right:20px'><li>Confirmed: 1449.0</li><li>Deaths:   21.0</li><li>Active:   1255.0</li></ul>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_16f7107f63e44361ad4cb1514a74f754 = L.circle(
+                [30.0668, 79.0193],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10000.0, "stroke": true, "weight": 3}
+            ).addTo(map_4f7efef9c54b44a989570ff615d0d873);
+        
+    
+            circle_16f7107f63e44361ad4cb1514a74f754.bindTooltip(
+                `<div>
+                     <h3 style='text-align:center;font-weight: bold'>Uttarakhand</h3><hr style='margin:10px;'><ul style='color: #444; list-style-type:circle; align-item:left; padding-left:20px; padding-right:20px'><li>Confirmed: 46.0</li><li>Deaths:   0.0</li><li>Active:   23.0</li></ul>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_7e9d8c3f1233485fbaf71ec1bf0d1b60 = L.circle(
+                [22.9868, 87.855],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 110000.00000000001, "stroke": true, "weight": 3}
+            ).addTo(map_4f7efef9c54b44a989570ff615d0d873);
+        
+    
+            circle_7e9d8c3f1233485fbaf71ec1bf0d1b60.bindTooltip(
+                `<div>
+                     <h3 style='text-align:center;font-weight: bold'>West Bengal</h3><hr style='margin:10px;'><ul style='color: #444; list-style-type:circle; align-item:left; padding-left:20px; padding-right:20px'><li>Confirmed: 456.0</li><li>Deaths:   15.0</li><li>Active:   362.0</li></ul>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
