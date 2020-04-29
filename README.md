@@ -39,5 +39,11 @@ or click `Download ZIP` in right panel of repository and extract it.
 #### State wise Line Chart of Daily Total cases of COVID-19
 ![](https://github.com/durgeshsamariya/Covid19India/blob/master/Daily_Case_Line_Chart.png) 
 
+## Contributors
+Name | Email 
+--- | --- 
+Durgesh Samariya | samariya.durgesh@gmail.com
+Manvi Madan | manvimadan@outlook.com
+
 # Contribution
 If you want to contribute to the notebook or any feedback and suggestions are most welcome.
