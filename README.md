@@ -43,7 +43,6 @@ or click `Download ZIP` in right panel of repository and extract it.
 Name | Email 
 --- | --- 
 Durgesh Samariya | samariya.durgesh@gmail.com
-Manvi Madan | manvimadan@outlook.com
 
 # Contribution
 If you want to contribute to the notebook or any feedback and suggestions are most welcome.
